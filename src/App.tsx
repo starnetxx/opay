@@ -900,6 +900,7 @@ function App() {
   }, [styles.receiptWidth, styles.borderPadding]);
 
   const [isAddingWatermark, setIsAddingWatermark] = useState(false);
+  const [isCapturing, setIsCapturing] = useState(false);
   const [selectedLogoId, setSelectedLogoId] = useState<string | null>(null);
   const selectedLogo = customLogos.find(l => l.id === selectedLogoId);
   const [activeTab, setActiveTab] = useState<'content' | 'styles' | 'watermarks'>('content');
@@ -1133,6 +1134,10 @@ function App() {
 
   const handleDownloadPDF = async () => {
     if (receiptRef.current) {
+      setIsCapturing(true);
+      // Wait for re-render at scale 1
+      await new Promise(resolve => setTimeout(resolve, 100));
+
       const canvas = await html2canvas(receiptRef.current, {
         scale: 4, // Higher quality
         useCORS: true,
@@ -1148,11 +1153,16 @@ function App() {
 
       pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
       pdf.save('opay-receipt.pdf');
+      setIsCapturing(false);
     }
   };
 
   const handleDownload = async () => {
     if (receiptRef.current) {
+      setIsCapturing(true);
+      // Wait for re-render at scale 1
+      await new Promise(resolve => setTimeout(resolve, 100));
+
       const canvas = await html2canvas(receiptRef.current, {
         backgroundColor: '#ffffff',
         scale: 3,
@@ -1163,6 +1173,7 @@ function App() {
       link.download = `OPay-Receipt-${receiptData.transactionNo.slice(-8)}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
+      setIsCapturing(false);
     }
   };
 
@@ -2008,7 +2019,7 @@ function App() {
                 className="p-8 rounded-xl shadow-inner transition-transform duration-200 origin-top"
                 style={{
                   backgroundColor: '#d0d0d0',
-                  transform: `scale(${scale})`,
+                  transform: `scale(${isCapturing ? 1 : scale})`,
                 }}
               >
                 <div ref={receiptRef} className="inline-block shadow-xl">
