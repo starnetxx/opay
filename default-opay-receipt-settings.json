@@ -1,0 +1,325 @@
+{
+  "receiptData": {
+    "amount": "87,411.17",
+    "status": "Successful",
+    "date": "Nov 29th, 2025",
+    "time": "16:41:00",
+    "transactionNo": "251129140300905256951904",
+    "merchantName": "Paystack Payment Limited",
+    "merchantOrderNo": "paystack_56966788449_q31kj",
+    "footerText": "Enjoy a better life with OPay. Get free transfers, withdrawals, bill payments, instant loans, and good annual interest On your savings. OPay is licensed by the Central Bank of Nigeria and insured by the NDIC.",
+    "transactionNoLabel": "Transaction No.",
+    "merchantNameLabel": "Merchant Name",
+    "merchantOrderNoLabel": "Merchant Order No."
+  },
+  "styles": {
+    "amount": {
+      "fontSize": 40,
+      "fontWeight": 400,
+      "fontFamily": "Kanit",
+      "color": "#09b879",
+      "letterSpacing": 4.5
+    },
+    "currencySymbol": {
+      "fontSize": 42,
+      "fontWeight": 400,
+      "fontFamily": "Roboto",
+      "color": "#09b879",
+      "letterSpacing": 0
+    },
+    "status": {
+      "fontSize": 22,
+      "fontWeight": 400,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#333333"
+    },
+    "dateTime": {
+      "fontSize": 17,
+      "fontWeight": 400,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#888888"
+    },
+    "labels": {
+      "fontSize": 18,
+      "fontWeight": 400,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#888888"
+    },
+    "values": {
+      "fontSize": 17,
+      "fontWeight": 500,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#333333"
+    },
+    "transactionNoValue": {
+      "fontSize": 17,
+      "fontWeight": 500,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#333333"
+    },
+    "merchantNameValue": {
+      "fontSize": 17,
+      "fontWeight": 500,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#333333"
+    },
+    "merchantOrderNoValue": {
+      "fontSize": 17,
+      "fontWeight": 500,
+      "fontFamily": "Arial, sans-serif",
+      "color": "#333333"
+    },
+    "footer": {
+      "fontSize": 17,
+      "fontWeight": 400,
+      "fontFamily": "Roboto",
+      "color": "#999999",
+      "lineHeight": 1.2,
+      "wordSpacing": 0,
+      "letterSpacing": 0
+    },
+    "headerTitle": {
+      "fontSize": 18,
+      "fontWeight": 400,
+      "fontFamily": "Roboto",
+      "color": "#333333"
+    },
+    "borderSize": 22,
+    "borderQuantity": 14,
+    "borderColor": "#000000",
+    "watermarkOpacity": 0,
+    "watermarkSize": 60,
+    "customWatermarkOpacity": 0.04,
+    "receiptWidth": 509,
+    "receiptHeight": "auto",
+    "contentPadding": 26,
+    "borderPadding": 15,
+    "dashedLineThickness": 1.1,
+    "dashedLineSpacing": 5,
+    "globalFont": "Roboto-Regular",
+    "topBorderOffset": -2,
+    "bottomBorderOffset": 2,
+    "headerLogoHeight": 31,
+    "headerPaddingX": 4,
+    "borderStretch": 0.8
+  },
+  "customLogos": [
+    {
+      "id": "1769682044252",
+      "x": 15.045572916666666,
+      "y": 21.91256652192367,
+      "opacity": 0.05,
+      "size": 85,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769682075151",
+      "x": 37.545572916666664,
+      "y": 8.58405302269532,
+      "opacity": 0.1,
+      "size": 85,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684079114",
+      "x": 72.75390625,
+      "y": 8.41266653277097,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684125424",
+      "x": 87.96223958333333,
+      "y": 22.809131686416283,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684155753",
+      "x": 53.587239583333336,
+      "y": 21.095266787172793,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684170562",
+      "x": -1,
+      "y": 8.5,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684209182",
+      "x": -0.5,
+      "y": 33.94925353149896,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684244216",
+      "x": 34.837239583333336,
+      "y": 36.005891410591154,
+      "opacity": 0.1,
+      "size": 75,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684263282",
+      "x": 18.7,
+      "y": 47.66017272544688,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684298872",
+      "x": 55.5,
+      "y": 47.71,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684396298",
+      "x": 87.75390625,
+      "y": 47.67,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684445863",
+      "x": 36.50390625,
+      "y": 59.14306755037826,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684474184",
+      "x": 67.75390625,
+      "y": 60.51415946977304,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684499001",
+      "x": 18.795572916666668,
+      "y": 72.7,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684532871",
+      "x": 54.00390625,
+      "y": 73.71091919394792,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684554536",
+      "x": 89.42057291666666,
+      "y": 73.36814621409921,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684576895",
+      "x": -0.5,
+      "y": 59.3144540403026,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684616079",
+      "x": -1,
+      "y": 85.02242752895495,
+      "opacity": 0.1,
+      "size": 80,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684640189",
+      "x": 29.00390625,
+      "y": 86.22213295842539,
+      "opacity": 0.1,
+      "size": 65,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684735344",
+      "x": 71.71223958333334,
+      "y": 84.67965454910625,
+      "opacity": 0.1,
+      "size": 70,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684757846",
+      "x": 20.1,
+      "y": 98,
+      "opacity": 0.1,
+      "size": 75,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684814177",
+      "x": 53.587239583333336,
+      "y": 98.8,
+      "opacity": 0.1,
+      "size": 75,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684852957",
+      "x": 91.50390625,
+      "y": 99.5,
+      "opacity": 0.1,
+      "size": 75,
+      "inverted": false,
+      "rotation": 340
+    },
+    {
+      "id": "1769684893049",
+      "x": 74.21223958333333,
+      "y": 35.8345049206668,
+      "opacity": 0.05,
+      "size": 75,
+      "inverted": false,
+      "rotation": 340
+    }
+  ],
+  "version": 1
+}
